@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shiida Tetsuro | Web Engineer</title>
+<meta name="description" content="Shiida Tetsuro — 福岡を拠点に活動するWebエンジニア。Ruby on Railsを軸にした受託開発、Next.jsによるフロントエンド構築、経理・バックオフィス業務のDXまで、日商簿記1級・10年の経理実務経験を活かして対応します。">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">本文へスキップ</a>
+<div class="bg-grid" aria-hidden="true"></div>
+
+<!-- ============ Hero ============ -->
+<header class="hero" id="top">
+  <svg class="hero__chart" viewBox="0 0 800 400" preserveAspectRatio="none" aria-hidden="true">
+    <path class="hero__chart-line" d="M0,340 L100,300 L200,320 L300,230 L400,250 L500,150 L600,175 L700,70 L800,95"
+          fill="none" stroke="url(#chartGradient)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <defs>
+      <linearGradient id="chartGradient" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#0A7F94"/>
+        <stop offset="1" stop-color="#7CB93F"/>
+      </linearGradient>
+    </defs>
+    <circle class="hero__chart-dot" cx="700" cy="70" r="4" fill="#7CB93F"/>
+  </svg>
+
+  <div class="hero__inner">
+    <div class="hero__meta reveal">
+      <span class="mono">PROFILE</span>
+      <span class="mono hero__place">Fukuoka, Japan</span>
+    </div>
+
+    <div class="hero__identity reveal">
+      <div class="hero__portrait">
+        <div class="hero__portrait-frame">
+          <img src="profile.jpg" alt="プロフィール写真" width="500" height="500">
+        </div>
+      </div>
+      <h1 class="hero__name">Shiida Tetsuro</h1>
+    </div>
+
+    <div class="hero__tags reveal">
+      <span class="chip">Web Engineer</span>
+    </div>
+
+    <p class="hero__lead reveal">
+      バックオフィス実務や業務改善の経験もあるWebエンジニアです。要件整理から実装・運用まで一気通貫で担います。
+    </p>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ 001 About ============ -->
+  <section class="section" id="about" aria-labelledby="about-heading">
+    <div class="section__inner">
+      <p class="section__eyebrow mono reveal">001 / About</p>
+      <h2 class="section__title reveal" id="about-heading">自己紹介</h2>
+
+      <p class="section__lead reveal">
+        福岡を拠点に活動しているWebエンジニアです。経理・バックオフィス業務に約10年従事した後、独学でプログラミングを習得してエンジニアへ転向しました。Ruby on Railsによるバックエンド開発を中心に、AWSインフラの構築・運用やNext.jsによるフロントエンド開発まで対応しています。バックオフィス実務の経験を活かし、業務理解に基づいたシステム開発を得意としています。
+      </p>
+
+      <ol class="log">
+        <li class="log__row reveal">
+          <span class="log__index mono">01</span>
+          <div class="log__body">
+            <p class="log__label">経理・バックオフィス実務</p>
+            <p class="log__detail">伝票管理から決算書・税務申告書の作成まで、バックオフィス実務に幅広く従事</p>
+          </div>
+        </li>
+        <li class="log__row reveal">
+          <span class="log__index mono">02</span>
+          <div class="log__body">
+            <p class="log__label">エンジニアへ転向</p>
+            <p class="log__detail">スタートアップでチームリーダーとして、Railsでのバックエンド開発からNext.jsでのフロントエンド開発、インフラ構築までを担当</p>
+          </div>
+        </li>
+        <li class="log__row reveal">
+          <span class="log__index mono">03</span>
+          <div class="log__body">
+            <p class="log__label">経理領域のシステム開発</p>
+            <p class="log__detail">国内大手クラウドソーシングサービス運営企業で、経理業務改善を目的とした自社Webアプリケーションの開発にバックエンドエンジニアとして従事</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ 002 Services ============ -->
+  <section class="section section--surface" id="services" aria-labelledby="services-heading">
+    <div class="section__inner">
+      <p class="section__eyebrow mono reveal">002 / Services</p>
+      <h2 class="section__title reveal" id="services-heading">できること</h2>
+
+      <div class="cards">
+        <article class="card reveal">
+          <p class="card__num mono">01</p>
+          <h3 class="card__title">システム開発</h3>
+          <p class="card__text">要件整理から設計・実装・運用まで、Ruby on Railsを中心としたWebアプリケーション開発を一気通貫で対応します。</p>
+        </article>
+
+        <article class="card reveal">
+          <p class="card__num mono">02</p>
+          <h3 class="card__title">業務効率化</h3>
+          <p class="card__text">業務のシステム化や外部システムとのAPI連携など、既存の業務を効率化する仕組みづくりをご支援します。</p>
+        </article>
+
+        <article class="card reveal">
+          <p class="card__num mono">03</p>
+          <h3 class="card__title">Webサイト構築</h3>
+          <p class="card__text">ご要望をヒアリングしながら、目的に合ったシンプルで運用しやすいWebサイトを制作します。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 003 Skills ============ -->
+  <section class="section" id="skills" aria-labelledby="skills-heading">
+    <div class="section__inner">
+      <p class="section__eyebrow mono reveal">003 / Skills</p>
+      <h2 class="section__title reveal" id="skills-heading">スキル</h2>
+
+      <div class="stack">
+        <div class="stack__group reveal">
+          <p class="stack__cat mono">Backend</p>
+          <div class="stack__chips">
+            <span class="chip">Ruby</span>
+            <span class="chip">Ruby on Rails</span>
+            <span class="chip">RSpec</span>
+          </div>
+        </div>
+        <div class="stack__group reveal">
+          <p class="stack__cat mono">Frontend</p>
+          <div class="stack__chips">
+            <span class="chip">JavaScript</span>
+            <span class="chip">TypeScript</span>
+            <span class="chip">React</span>
+            <span class="chip">Next.js</span>
+            <span class="chip">jQuery</span>
+          </div>
+        </div>
+        <div class="stack__group reveal">
+          <p class="stack__cat mono">Infrastructure &amp; Data</p>
+          <div class="stack__chips">
+            <span class="chip">AWS</span>
+            <span class="chip">MySQL</span>
+            <span class="chip">Redis</span>
+            <span class="chip">Docker</span>
+            <span class="chip">CircleCI</span>
+          </div>
+        </div>
+        <div class="stack__group reveal">
+          <p class="stack__cat mono">Tools</p>
+          <div class="stack__chips">
+            <span class="chip">Git</span>
+            <span class="chip">GitHub</span>
+            <span class="chip">GitHub Copilot</span>
+            <span class="chip">Claude Code</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 004 Strengths ============ -->
+  <section class="section" id="strengths" aria-labelledby="strengths-heading">
+    <div class="section__inner">
+      <p class="section__eyebrow mono reveal">004 / Strengths</p>
+      <h2 class="section__title reveal" id="strengths-heading">得意分野</h2>
+
+      <div class="cards">
+        <article class="card reveal">
+          <p class="card__num mono">01</p>
+          <h3 class="card__title">バックエンド開発</h3>
+          <p class="card__text">要件整理から実装・デプロイまで、Ruby on Railsを用いたWebアプリケーション開発を一貫して担当できます。</p>
+        </article>
+
+        <article class="card reveal">
+          <p class="card__num mono">02</p>
+          <h3 class="card__title">フルスタック対応</h3>
+          <p class="card__text">バックエンドを軸としながら、フロントエンドやインフラ構築の実務経験もあります。</p>
+        </article>
+
+        <article class="card card--verified reveal">
+          <p class="card__num mono">03</p>
+          <h3 class="card__title">経理ドメイン知識</h3>
+          <p class="card__text">日商簿記1級を保有し、経理実務の経験もあります。業務フローへの理解を活かした課題解決が可能です。</p>
+
+          <div class="badge" aria-hidden="true">
+            <svg class="badge__ring" viewBox="0 0 64 64" width="64" height="64">
+              <circle class="badge__ring-track" cx="32" cy="32" r="27" fill="none" stroke-width="2"/>
+              <circle class="badge__ring-progress" cx="32" cy="32" r="27" fill="none" stroke-width="2"/>
+              <path class="badge__check" d="M21 33l7 7 15-16" fill="none" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="badge__label mono">簿記1級</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ Contact ============ -->
+<footer class="hero hero--footer" id="contact" aria-labelledby="contact-heading">
+  <div class="hero__inner">
+    <p class="section__eyebrow mono reveal">005 / Contact</p>
+    <h2 class="hero__title reveal" id="contact-heading">お問い合わせ</h2>
+    <p class="hero__lead reveal">
+      専用のお問い合わせフォームを準備中です。今しばらくお待ちください。
+    </p>
+
+    <!-- TODO: 今後こちらにGoogleフォームの<iframe>を埋め込み予定 -->
+    <div class="formstub reveal">
+      <p class="formstub__text mono">// お問い合わせフォームは準備中です</p>
+      <p class="formstub__sub">近日Googleフォームを設置予定です。</p>
+    </div>
+
+    <p class="linklist__label mono reveal">Links</p>
+    <ul class="linklist reveal">
+      <li><a href="https://github.com/shiida-tech" target="_blank" rel="noopener noreferrer">GitHub<span class="mono linklist__arrow">↗</span></a></li>
+      <li><a href="https://qiita.com/shiida-tech" target="_blank" rel="noopener noreferrer">Qiita<span class="mono linklist__arrow">↗</span></a></li>
+      <li><a href="https://x.com/shiida_tech" target="_blank" rel="noopener noreferrer">X (Twitter)<span class="mono linklist__arrow">↗</span></a></li>
+    </ul>
+
+    <div class="hero__rule" aria-hidden="true"></div>
+    <p class="hero__copyright mono">© 2026 Shiida Tetsuro</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
