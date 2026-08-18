@@ -161,7 +161,7 @@ img { max-width: 100%; display: block; }
 .hero__meta {
   font-size: 0.8rem;
   color: var(--blue);
-  margin-bottom: clamp(3rem, 10vh, 6rem);
+  margin-bottom: clamp(1.75rem, 6vh, 3.5rem);
   letter-spacing: 0.12em;
 }
 
@@ -183,7 +183,7 @@ img { max-width: 100%; display: block; }
 
 .hero__lead {
   margin-top: 1.5rem;
-  max-width: 44rem;
+  max-width: var(--measure);
   font-size: clamp(0.95rem, 2vw, 1.05rem);
   color: var(--ink-soft);
 }
