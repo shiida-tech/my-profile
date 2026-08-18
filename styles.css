@@ -159,15 +159,19 @@ img { max-width: 100%; display: block; }
 }
 
 .hero__meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
   font-size: 0.8rem;
   color: var(--blue);
-  margin-bottom: clamp(3rem, 10vh, 6rem);
+  margin-bottom: clamp(1.75rem, 6vh, 3.5rem);
   letter-spacing: 0.12em;
 }
-.hero__place { color: var(--ink-soft); }
+
+.hero__role {
+  font-weight: 700;
+  font-size: clamp(1.3rem, 3.2vw, 1.75rem);
+  color: var(--blue);
+  letter-spacing: 0.04em;
+  margin-bottom: 0.75rem;
+}
 
 .hero__name {
   font-family: var(--font-display);
@@ -177,16 +181,9 @@ img { max-width: 100%; display: block; }
   letter-spacing: -0.01em;
 }
 
-.hero__tags {
-  margin-top: 1.5rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6rem;
-}
-
 .hero__lead {
   margin-top: 1.5rem;
-  max-width: 34rem;
+  max-width: var(--measure);
   font-size: clamp(0.95rem, 2vw, 1.05rem);
   color: var(--ink-soft);
 }
