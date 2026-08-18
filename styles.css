@@ -166,7 +166,6 @@ img { max-width: 100%; display: block; }
 }
 
 .hero__role {
-  font-family: var(--font-jp);
   font-weight: 700;
   font-size: clamp(1.3rem, 3.2vw, 1.75rem);
   color: var(--blue);
